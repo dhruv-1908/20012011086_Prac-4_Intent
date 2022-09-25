@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/input_browser"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint=" Web URL"
+            android:textSize="20sp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/ic_baseline_gps_fixed_24"
+            android:focusable="true">
+        </EditText>
+        <EditText
+            android:id="@+id/input_call"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint=" Call Number"
+            android:textSize="20sp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/ic_baseline_call_24">
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint=" Contact List"
+            android:textSize="20sp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/ic_baseline_contacts_24">
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint=" Call Log"
+            android:textSize="20sp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/ic_baseline_phone_callback_24">
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint=" Gallery"
+            android:textSize="20sp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/ic_baseline_image_24">
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint=" Camera"
+            android:textSize="20sp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/ic_baseline_photo_camera_24">
+        </EditText>
+        <EditText
+            android:id="@+id/input_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint=" Alarm"
+            android:textSize="20sp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/ic_baseline_alarm_24">
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_browser"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text=" Browse"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text=" Call"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text=" Contact"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_call_log"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text=" Call Log"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_gallery"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text=" Gallery"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text=" Camera"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp">
+        </Button>
+        <Button
+            android:id="@+id/btn_openAlarm"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text=" Alarm"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp">
+        </Button>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
